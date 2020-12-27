@@ -21,6 +21,10 @@
 > git clone https://github.com/XP-TN/XPTNNBOTV
 ```
 
+```bash
+>Command BOT $
+```
+
 ## Install the dependencies:
 Before running the below command, make sure you're in the project directory that
 you've just cloned!!
