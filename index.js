@@ -412,6 +412,21 @@ async function starts() {
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, image, {caption: 'Nih anjim', quoted: mek})
 					break
+                                case 'ttpthunder':
+					if (args.length < 1) return reply('Textnya mana um?')
+					ranp = getRandom('.png')
+					rano = getRandom('.webp')
+					ttp = body.slice(5).trim()
+					anu = await fetchJson(`https://api.vhtear.com/thundertext?text=${ttp}&apikey=ANTIGRATISNIHANJENKKK`, {method: 'get'})
+					if (anu.error) return reply(anu.error)
+					exec(`wget ${anu.result} -O ${ranp} && ffmpeg -i ${ranp} -vcodec libwebp -filter:v fps=fps=25 -lossless 1 -loop 0 -preset default -an -vsync 0 -s 512:512 ${rano}`, (err) => {
+						fs.unlinkSync(ranp)
+						if (err) return reply(mess.error.stick)
+						buff = fs.readFileSync(rano)
+						client.sendMessage(from, buff, sticker, {quoted: mek})
+						fs.unlinkSync(rano)
+					})
+					break
 				case 'galaxtext':
 					if (args.length < 1) return reply('mau apa om')
 					teks = body.slice(12)
