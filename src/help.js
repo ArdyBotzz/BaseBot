@@ -67,7 +67,15 @@ const help = (prefix) => {
 ┣➥ *${prefix}sakura*
 ┣➥ *${prefix}Waiting Lupa owowk*
 ┃Jika Inging mengaktifkan nya ketik
-┃openanime 1 kalo mau di nonaktifkan openanime 0
+┃openanime 1 kalo mau di nonaktifkan openanime0
+┣━━━━°❀🔗 ❬ COMMAND Mainan ❭ 🔗❀°━━━⊱
+┃
+┣➥ *${prefix}apakah*
+┣➥ *${prefix}bisakah*
+┣➥ *${prefix}rate*
+┣➥ *${prefix}watak*
+┣➥ *${prefix}kapankah*
+┃
 ┣━━━°❀ ❬ COMMAND DOWNLOADER ❭ ❀°━━⊱
 ┃
 ┣➥ *ytsearch* [search yt]
