@@ -1,83 +1,89 @@
 <p align="center">
-<img src="https://static.wikia.nocookie.net/kenja-no-mago/images/8/85/Sizilien_von_klode_1.jpg/revision/latest/top-crop/width/300/height/300?cb=20190417164406" width="128" height="128"/>
+<img src="" alt="" border="0">
 </p>
 <p align="center">
-<a href="#"><img title="XPTNNBOT" src="https://img.shields.io/badge/XPTNNBOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
-<p align="center">
-<a href="https://github.com/XP-TN"><img title="Author" src="https://img.shields.io/badge/Author-XP-TN-red.svg?style=for-the-badge&logo=github"></a>
-</p>
-<p align="center">
-<a href="https://github.com/XP-TN/XP-TNNBOT/followers"><img title="Followers" src="https://img.shields.io/github/followers/XP-TN?color=blue&style=flat-square"></a>
-<a href="https://github.com/XP-TN/XP-TNNBOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/XP-TN/XP-TNNBOT?color=red&style=flat-square"></a>
-<a href="https://github.com/XP-TN/XP-TNNBOT/network/members"><img title="Forks" src="http://img.shields.io/github/forks/XP-TN/XP-TNNBOT?color=red&style=flat-square"></a>
-<a href="https://github.com/XP-TN/XP-TNNBOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/XP-TN/XP-TNNBOT?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FXP-TN%2FXP-TNNBOT&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Support&edge_flat=false"/></a>
-<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/MAINTENED-YES-blue.svg"</a>
+<a href="https://github.com/ArdyBotzz">
 </p>
 
-## Clone this project
+## Things I Code With
+<p>
+<img 
+src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white" />
+<img 
+src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
 
+# Instalasi
+## For Windows
 ```bash
-> git clone https://github.com/XP-TN/XPTNNBOTV
+git clone https://github.com/ArdyBotzz/BaseBot.git
+cd BaseBot
+npm install
+node Ardy
 ```
 
+## For Termux
 ```bash
->Command BOT $
+termux-setup-storage
+apt update && apt upgrade
+pkg install nodejs git ffmpeg libwebp imagemagick
+git clone https://github.com/ArdyBotzz/BaseBot.git
+cd BaseBot
+npm install
+node Ardy
 ```
 
-## Install the dependencies:
-Before running the below command, make sure you're in the project directory that
-you've just cloned!!
-
+## For VPS
 ```bash
-> cd XPTNNBOT
-> bash install.sh
+apt install nodejs git ffmpeg libwebp imagemagick
+git clone https://github.com/ArdyBotzz/BaseBot.git
+cd BaseBot
+npm install
+node Ardy
+```
+## Installing the FFmpeg for Windows
+* Unduh salah satu versi FFmpeg yang tersedia dengan mengklik [di sini](https://www.gyan.dev/ffmpeg/builds/).
+* Extract file ke `C:\` path.
+* Ganti nama folder yang telah di-extract menjadi `ffmpeg`.
+* Run Command Prompt as Administrator.
+* Jalankan perintah berikut::
+```cmd
+> setx /m PATH "C:\ffmpeg\bin;%PATH%"
+```
+Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was saved`.
+* Sekarang setelah Anda menginstal FFmpeg, verifikasi bahwa itu berhasil dengan menjalankan perintah ini untuk melihat versi:
+```cmd
+> ffmpeg -version
 ```
 
-### Usage
-```bash
-> npm start
+
+## Installing the libwebp for Windows
+* Unduh salah satu versi libwebp yang tersedia dengan mengklik [di sini](https://developers.google.com/speed/webp/download).
+* Extract file ke `C:\` path.
+* Ganti nama folder yang telah di-extract menjadi `libwebp`.
+* Run Command Prompt as Administrator.
+* Jalankan perintah berikut::
+```cmd
+setx /m PATH "C:\libwebp\bin;%PATH%"
+```
+Jika berhasil, akan memberikanmu pesan seperti: `SUCCESS: specified value was saved`.
+* Sekarang setelah Anda menginstal libwebp, verifikasi bahwa itu berhasil dengan menjalankan perintah ini untuk melihat versi:
+```cmd
+webpmux -version
 ```
 
-## Features
-
-| Sticker Creator |                Feature           |
-| :-----------: | :--------------------------------: |
-|       ✅       | Send Photo with Caption          |
-|       ✅       | Reply A Photo                    |
-|       ✅       | Reply A Video or GIF             |
-|       ✅       | Send Video or GIF with Caption   |
-|       ✅       | Reply A Sticker ( sticker to image ) |
-
-| Other  |                     Feature                     |
-| :------------: | :---------------------------------------------: |
-|       ✅        |   Get a random meme             |
-|       ✅        |   Text to speech                |
-|       ✅        |   Writing feature 				|
-|       ✅        |   What Anime Is This 			|
-|       ✅        |   Url2Img ( Screeenshot Web )   |
-|       ✅        |   Simsimi		                |
-
-| Group  |                     Feature               |
-| :-----------: | :--------------------------------: |
-|       ✅        |   Tagall/Mentionall member       |
-|       ✅        |   Kick Member Group	             |
-|       ✅        |   Add Member Group	             |
-|       ✅        |   Get List Admins Group          |
-
-| Owner Bot  |                     Feature           |
-| :-----------: | :--------------------------------: |
-|       ✅        |   Set Prefix                     |
-|       ✅        |   Broadcast                      |
-|       ✅        |   Clear All Chats                |
-
-## Special Thanks to
-* [`adiwajshing/Baileys`](https://github.com/adiwajshing/Baileys)
-* [`Mhankbarbar`](https://github.com/MhankBarBar)
+## Thanks To 
+* [`Adiwajshing/Baileys`](https://github.com/adiwajshing/Baileys)
+* [`Aqulzz`](https://github.com/zennn08)
+* [`MhankBarBar`](https://github.com/MhankBarBar)
+* [`Nurutomo`](https://github.com/Nurutomo)
 
 
-## Group
-* [`WhatsApp`](Error waiting)
-### Donate
-* [`Saweria`](https://saweria.co/donate/agung1)
+| ------------- |
+| Features |
+| ------------- | ------------- |
+| Nulis |✅|
+| Broadcast |✅|
+| Antilink |✅|
+| Welcome |✅|
+| Dll.. |✅|
+| ------------- |
