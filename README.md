@@ -76,14 +76,3 @@ webpmux -version
 * [`Aqulzz`](https://github.com/zennn08)
 * [`MhankBarBar`](https://github.com/MhankBarBar)
 * [`Nurutomo`](https://github.com/Nurutomo)
-
-
-| ------------- |
-| Features |
-| ------------- | ------------- |
-| Nulis |✅|
-| Broadcast |✅|
-| Antilink |✅|
-| Welcome |✅|
-| Dll.. |✅|
-| ------------- |
